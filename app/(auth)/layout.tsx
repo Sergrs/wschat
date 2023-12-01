@@ -3,7 +3,7 @@ import React from "react";
 type Props = {};
 
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
-  return <div className="bg-red-500 h-full">{children}</div>;
+  return <div className="h-full">{children}</div>;
 };
 
 export default AuthLayout;
